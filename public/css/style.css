@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Circular Std';
+  src: url('Circular-Std-Font/circular-std-medium-500.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Circular Std", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #193148;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  width: 100%;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+header a{
+  text-decoration: none;
+}
+
+.content{
+  height: 800px;
+  background: linear-gradient(to bottom, rgba(29, 165, 132, .05), rgba(29, 165, 132, .05), rgba(29, 165, 132, 0.02));
+  padding: 0 100px;
+  margin-bottom: 30px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 2em;
+  height: 300px;
+}
+
+.country-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.country{
+  width: 500px;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid rgba(28, 28, 28, 0.07);
+  box-shadow: 0 7px 6px 0 rgba(33, 43, 54, 0.04);
+}
+
+.country-name{
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.country-datas{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.country-datas div{
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.comparator {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+}
+
+.comparator-div{
+  background-color: #ffffff;
+  width: auto;
+  height: auto;
+
+  border-radius: 10px;
+  border: 1px solid rgba(28, 28, 28, 0.07);
+  box-shadow: 0 7px 6px 0 rgba(33, 43, 54, 0.04);
+}
+
+.comparator h2{
+  width: 100%;
+  text-align: center;
+}
+
+.difference{
+  padding: 0 10px;
+}
+
+.difference p{
+  width: 100%;
+}
+
+footer{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+  border: 1px solid rgba(28, 28, 28, 0.07);
+  box-shadow: 0 7px 6px 0 rgba(33, 43, 54, 0.04);  color:white;
+  height: auto;
+  padding: 10px;
+}
+
+.contacts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts h4{
+  margin-right: 10px;
+}
+
+.contatcs-imgs img{
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
